@@ -1,6 +1,6 @@
 {
   "name": "vite-plugin-raw",
-  "description": " Vite Plugin Raw will transfrom any type file to string",
+  "description": " vite-plugin-raw will transfrom any type file to string",
   "version": "0.1.2",
   "main": "dist/index.js",
   "scripts": {

@@ -1,6 +1,6 @@
 # vite-plugin-raw
 
-vite-plugin-raw will transfrom any type file to string
+vite-plugin-raw will transform any type file to string
 
 # Install
 

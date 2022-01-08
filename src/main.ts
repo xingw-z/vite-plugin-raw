@@ -15,7 +15,7 @@ interface ReturnValue{
   code?: string;
 }
 
-export default function ({match, exclude}: Props) {
+module.exports = function ({match, exclude}: Props) {
   return {
     name: 'vite-plugin-raw',
     async transform (_: string, id: string): Promise<ReturnValue> {

@@ -5,7 +5,6 @@ Vite Plugin Raw will transfrom any type file to string
 # Install
 
 ```bash
-# with npm
 npm install -D vite-plugin-raw
 ```
 

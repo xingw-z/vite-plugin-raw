@@ -17,7 +17,7 @@ export default defineConfig({
     lib: {
       entry: path.resolve(__dirname, 'src/main.ts'),
       name: 'vite-plugin-raw',
-      formats: ['es'],
+      formats: ['cjs'],
       fileName: (format) => 'index.js',
     }
   }

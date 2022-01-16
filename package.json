@@ -1,7 +1,7 @@
 {
   "name": "vite-plugin-raw",
   "description": " vite-plugin-raw will transform any type file to string",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "dist/index.js",
   "scripts": {
     "dev": "vite",
@@ -15,6 +15,18 @@
     "vite": "^2.7.2",
     "vite-plugin-dts": "^0.9.7"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xingw-z/vite-plugin-raw.git"
+  },
   "author": "xingw-z",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xingw-z/vite-plugin-raw/issues"
+  },
+  "keywords": [
+    "vite",
+    "raw"
+  ],
+  "homepage": "https://github.com/xingw-z/vite-plugin-raw#readme"
 }

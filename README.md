@@ -23,3 +23,7 @@ module.exports = {
   ]
 }
 ```
+or
+```js
+import richtextRedo from '../assets/richtext_redo.svg?raw';
+```

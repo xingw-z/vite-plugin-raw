@@ -22,8 +22,12 @@ export default function ({match, exclude}: Props) {
       const files = Array.isArray(match) ? match : [match];
       const excludes = exclude ? (Array.isArray(exclude) ? exclude : [exclude]) : exclude;
       const excludeBool = excludes ? !(excludes.find((v) => v.test(id))) : !excludes;
-      if (files.find((v) => v.test(id)) && excludeBool) {
-        const buf = fs.readFileSync(id)
+      const isRaw = id.endsWith("?raw");
+      if ((files.find((v) => v.test(id)) && excludeBool) || isRaw) {
+        if (isRaw) {
+          id = id.replace("?raw", "");
+        }
+        const buf = fs.readFileSync(id);
         return {
           code: `export default \`${buf}\``
         };
